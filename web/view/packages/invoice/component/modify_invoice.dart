@@ -5,17 +5,18 @@ import 'package:angular/angular.dart';
 
 @Component(
     selector: 'modify-invoice',
-    templateUrl: 'modify-invoice.html'
+    templateUrl: 'modify_invoice.html'
     )
-class modifyInvoiceComponent {
-  @NgOneWay('invoices')
-  List<Invoice> invoices = [];
+class ModifyInvoiceComponent {
+  @NgTwoWay('invoice-map')
+  Map<String, Invoice> invoiceMap;
 
   String _invoice_itemCode;
 
-//  Invoice get invoice => invoices == null ? null : invoices.stream().filter(line -> itemCode.equals(line) line);
+  Invoice get invoice => invoiceMap == null ? null : invoiceMap[_invoice_itemCode];
 
-  invoiceRouteInitializer(RouteProvider routeProvider) {
+
+  ModifyInvoiceComponent(RouteProvider routeProvider) {
     _invoice_itemCode = routeProvider.parameters['itemCode'];
   }
 }

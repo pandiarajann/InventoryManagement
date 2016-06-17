@@ -17,7 +17,7 @@ class InvoiceComponent {
   String message = LOADING_MESSAGE;
 
   Map<String, Invoice> _invoiceMap = {};
-  //Map<String, Recipe> get invoiceMap => _invoiceMap;
+  Map<String, Invoice> get invoiceMap => _invoiceMap;
 
   // Data objects that are loaded from the server side via json
   List<Invoice> invoices = [];
@@ -36,16 +36,11 @@ class InvoiceComponent {
 
       invoices = response.data.map((d) => new Invoice.fromJson(d)).toList();
       invoiceLoaded = true;
-/*
 
       for (Map invoice in response.data) {
         Invoice r = new Invoice.fromJson(invoice);
-        _invoiceMap[invoice.itemCode] = r;
+        _invoiceMap[r.itemCode] = r;
       }
-      invoices =
-      _allRecipes = _recipeMap.values.toList();
-*/
-
     })
         .catchError((e) {
       print(e);

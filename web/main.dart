@@ -5,7 +5,9 @@ import 'package:angular/application_factory.dart';
 import 'package:logging/logging.dart';
 
 import 'package:invoice/component/invoice_component.dart';
+import 'package:invoice/component/modify_invoice.dart';
 import 'package:invoice/routing/invoice_routing.dart';
+
 //import 'package:invoice/service/Invoice.dart';
 
 
@@ -21,7 +23,9 @@ import 'package:tutorial/tooltip/tooltip.dart';*/
 class MyAppModule extends Module {
   MyAppModule() {
     bind(InvoiceComponent);
+    bind(ModifyInvoiceComponent);
     bind(RouteInitializerFn, toValue: invoiceRouteInitializer);
+    bind(NgRoutingUsePushState, toValue: new NgRoutingUsePushState.value(false));
    /* bind(RecipeBookComponent);
     bind(RatingComponent);
     bind(Tooltip);

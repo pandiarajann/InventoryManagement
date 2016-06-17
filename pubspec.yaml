@@ -13,6 +13,7 @@ transformers:
 - angular:
     html_files:
        - lib/component/sales_invoice.html
+       - lib/component/modify_invoice.html
 #      - lib/component/recipe_book.html
 #      - lib/component/rating.html
 #      - lib/component/search_recipe.html
