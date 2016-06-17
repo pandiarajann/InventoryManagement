@@ -1,0 +1,26 @@
+[
+  {
+    "itemCode":"1001",
+    "date":"2016-06-17",
+    "productName": "Aptitude Book",
+    "description": "Aptitude book",
+    "quantity": 1,
+    "unitPrice": 495
+  },
+  {
+    "itemCode":"1002",
+    "date":"2016-06-17",
+    "productName": "Engineering Maths",
+    "description": "Engineering Maths",
+    "quantity": 1,
+    "unitPrice": 720
+  },
+  {
+    "itemCode":"1003",
+    "date":"2016-06-17",
+    "productName": "Amazon ElastiCache",
+    "description": "Introduction to Amazon ElastiCache",
+    "quantity": 1,
+    "unitPrice": 625
+  }
+]

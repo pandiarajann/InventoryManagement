@@ -1,0 +1,19 @@
+<h3> Invoice Details </h3>
+
+<div>
+    <table>
+    <tr class="pointer" ng-repeat="invoice in invoices">
+            <td>{{invoice.productName}}</td>
+            <td>{{invoice.description}}</td>
+    </tr>
+    </table>
+
+</div>
+
+<!--
+<div [ngGrid]="{'resizeable': false, 'margins': [5, 10]}">
+    <div *ngFor="let invoice of invoices" [(ngGridItem)]="invoice.config">
+        <div class="title">{{invoice.productName}}</div>
+        <p>{{invoice.description}}</p>
+    </div>
+</div>-->

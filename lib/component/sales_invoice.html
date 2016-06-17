@@ -1,0 +1,29 @@
+<h3> Invoice Details </h3>
+
+<!--
+<div>
+<ol>
+    <li class="pointer" ng-repeat="invoice in invoices">
+            {{ invoice.productName }}
+        </span>
+    </li>
+</ol>
+</div>-->
+
+<div ng-cloak>
+    <table>
+        <tr ng-repeat="invoice in invoices">
+            <td>{{invoice.productName}}</td>
+            <td>{{invoice.description}}</td>
+        </tr>
+    </table>
+
+</div>
+
+<nav id="controls">
+    <a href="/#/add"><input type="button" value="Add Product"></a><br/>
+</nav>
+
+<section id="details">
+    <ng-view></ng-view>
+</section>
