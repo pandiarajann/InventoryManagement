@@ -20,7 +20,10 @@ class InvoiceComponent {
   Map<String, Invoice> get invoiceMap => _invoiceMap;
 
   // Data objects that are loaded from the server side via json
-  List<Invoice> invoices = [];
+  //List<Invoice> invoices = [];
+
+  List<Invoice> get invoices => _invoiceMap.values.toList();
+
   bool invoiceLoaded = false;
 //  Map<String, invoice> _invoiceCache;
 
@@ -28,13 +31,12 @@ class InvoiceComponent {
     _loadData();
   }
 
-
   void _loadData() {
 
     _http.get('invoice_data.json')
         .then((HttpResponse response) {
 
-      invoices = response.data.map((d) => new Invoice.fromJson(d)).toList();
+      //invoices = response.data.map((d) => new Invoice.fromJson(d)).toList();
       invoiceLoaded = true;
 
       for (Map invoice in response.data) {
@@ -47,5 +49,16 @@ class InvoiceComponent {
       invoiceLoaded = false;
       message = ERROR_MESSAGE;
     });
+  }
+
+  void addPage() {
+    print("Add Page ");
+    Router router = new Router();
+    //router.go('view/addInvoice.html','','',false,'',false);
+    //router.go('view/addInvoice.html',null);
+    router.go('#/add1', null);
+//    router.go('http://localhost:63342/InventoryManagement/web/view/addInvoice.html', null);
+
+    //router.gotoUrl('http://localhost:63342/InventoryManagement/web/view/addInvoice.html');
   }
 }

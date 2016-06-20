@@ -30,14 +30,20 @@
                     <td>{{invoice.description}}</td>
                     <td>{{invoice.quantity}}</td>
                     <td>{{invoice.unitPrice}}</td>
+                    <td><div ng-cloak><a class="extra-space" href="#/invoice/{{invoice.itemCode}}/edi">test</a></div></td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-    <nav id="controls">
+
+
+        <!--<a class="extra-space" href="#/invoice/999/edit"> add </a>-->
         <a class="extra-space" href="#/add"><input type="button" value="Add Product"></a><br/>
-    </nav>
+        <!--<a href="#/add">test</a>-->
+
+        <!--<button value="Add Product" ng-click="addPage()"> Add Product </button>-->
+
 
     <section id="details">
         <ng-view></ng-view>
