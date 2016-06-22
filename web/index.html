@@ -11,9 +11,17 @@
 
 </head>
 <body>
-    <invoice-component></invoice-component>
 
-  <script type="application/dart" src="main.dart"></script>
+
+    <invoice-component> </invoice-component>
+    <a class="extra-space" href="#/add"><input type="button" value="Add Product"></a><br/>
+
+    <section id="details">
+        <ng-view> </ng-view>
+    </section>
+
+
+    <script type="application/dart" src="main.dart"></script>
   <script type="text/javascript" src="packages/browser/dart.js"></script>
 </body>
 </html>

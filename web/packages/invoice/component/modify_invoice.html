@@ -1,8 +1,6 @@
-<div><strong>ItemCode: </strong>{{invoice.itemCode}}</div>
-<div><strong>ProductName: </strong>{{invoice.productName}}</div>
-<div>Description: {{invoice.description}}</div>
+<div><strong>ItemCode: </strong>{{selectedInvoice.itemCode}}</div>
+<div><strong>ProductName: </strong>{{selectedInvoice.productName}}</div>
+<div>Description: {{selectedInvoice.description}}</div>
 <!--<div> Quantity : <input type="text" value={{invoice.quantity}}></div>-->
-<div> Quantity : <input type="text" ng-model ='invoice.quantity'></div>
+<div> Quantity : <input type="text" ng-model ='selectedInvoice.quantity'></div>
 <div> <button ng-click = 'save() '> Save  </button> </div>
-
-

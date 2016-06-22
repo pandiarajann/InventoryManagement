@@ -19,6 +19,7 @@ class QueryService {
   }
 
   Future _loadInvoice() {
+    print('inside queryservice');
     return _http.get(_invoiceDataFileUrl)
       .then((HttpResponse response) {
         _invoiceCache = new Map<String, Invoice>();
@@ -35,5 +36,8 @@ class QueryService {
         : new Future.value(_invoiceCache);
   }
 
+  Future addInvoice(Invoice _invoice) {
 
+    _invoiceCache.putIfAbsent(_invoice.itemCode, () => _invoice);
+  }
 }

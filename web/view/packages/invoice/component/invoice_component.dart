@@ -1,5 +1,6 @@
 import 'package:angular/angular.dart';
 import 'package:invoice/service/Invoice.dart';
+import 'package:invoice/service/QueryService.dart';
 
 @Component(
     selector: 'invoice-component',
@@ -16,6 +17,8 @@ class InvoiceComponent {
   // Determine the initial load state of the app
   String message = LOADING_MESSAGE;
 
+  final QueryService queryService;
+
   Map<String, Invoice> _invoiceMap = {};
   Map<String, Invoice> get invoiceMap => _invoiceMap;
 
@@ -27,13 +30,13 @@ class InvoiceComponent {
   bool invoiceLoaded = false;
 //  Map<String, invoice> _invoiceCache;
 
-  InvoiceComponent(this._http) {
+  InvoiceComponent(this._http, this.queryService) {
     _loadData();
   }
 
   void _loadData() {
 
-    _http.get('invoice_data.json')
+ /*   _http.get('invoice_data.json')
         .then((HttpResponse response) {
 
       //invoices = response.data.map((d) => new Invoice.fromJson(d)).toList();
@@ -48,6 +51,14 @@ class InvoiceComponent {
       print(e);
       invoiceLoaded = false;
       message = ERROR_MESSAGE;
+    });*/
+
+    queryService.getAllInvoice()
+        .then((Map<String, Invoice> allInvoices) {
+      _invoiceMap = allInvoices;
+    })
+        .catchError((e) {
+      print(e);
     });
   }
 

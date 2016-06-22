@@ -2,10 +2,10 @@ library invoice;
 
 class Invoice {
 
-  final String itemCode;
-  final String date;
-  final String productName;
-  final String description;
+  String itemCode;
+  String date;
+  String productName;
+  String description;
   int quantity;
   double unitPrice;
 

@@ -4,6 +4,9 @@ import 'package:angular/angular.dart';
 
 void invoiceRouteInitializer(Router router, RouteViewFactory views) {
   views.configure({
+    'empty': ngRoute(
+        path: '/empty',
+        view: 'view/empty_page.html'),
     'add': ngRoute(
         path: '/add',
         view: 'view/addInvoice.html'),
