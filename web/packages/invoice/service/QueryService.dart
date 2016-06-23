@@ -40,4 +40,8 @@ class QueryService {
 
     _invoiceCache.putIfAbsent(_invoice.itemCode, () => _invoice);
   }
+
+  Future deleteProduct(String _itemCode) {
+    _invoiceCache.remove(_itemCode);
+  }
 }

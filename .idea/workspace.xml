@@ -2,38 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d416b8b-735f-4bfb-a315-c012406a43f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/component/add_product.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/component/add_product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/view/deleteProduct.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/component/invoice_component.dart" afterPath="$PROJECT_DIR$/lib/component/invoice_component.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/component/modify_invoice.dart" afterPath="$PROJECT_DIR$/lib/component/modify_invoice.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/component/modify_invoice.html" afterPath="$PROJECT_DIR$/lib/component/modify_invoice.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/component/sales_invoice.html" afterPath="$PROJECT_DIR$/lib/component/sales_invoice.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routing/invoice_routing.dart" afterPath="$PROJECT_DIR$/lib/routing/invoice_routing.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/service/Invoice.dart" afterPath="$PROJECT_DIR$/lib/service/Invoice.dart" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/service/QueryService.dart" afterPath="$PROJECT_DIR$/lib/service/QueryService.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/invoice/component/invoice_component.dart" afterPath="$PROJECT_DIR$/packages/invoice/component/invoice_component.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/invoice/component/modify_invoice.dart" afterPath="$PROJECT_DIR$/packages/invoice/component/modify_invoice.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/invoice/component/modify_invoice.html" afterPath="$PROJECT_DIR$/packages/invoice/component/modify_invoice.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/invoice/component/sales_invoice.html" afterPath="$PROJECT_DIR$/packages/invoice/component/sales_invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/invoice/service/Invoice.dart" afterPath="$PROJECT_DIR$/packages/invoice/service/Invoice.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/invoice/service/QueryService.dart" afterPath="$PROJECT_DIR$/packages/invoice/service/QueryService.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/invoice/routing/invoice_routing.dart" afterPath="$PROJECT_DIR$/packages/invoice/routing/invoice_routing.dart" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/main.dart" afterPath="$PROJECT_DIR$/web/main.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/packages/invoice/component/invoice_component.dart" afterPath="$PROJECT_DIR$/web/packages/invoice/component/invoice_component.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/packages/invoice/component/modify_invoice.dart" afterPath="$PROJECT_DIR$/web/packages/invoice/component/modify_invoice.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/packages/invoice/component/modify_invoice.html" afterPath="$PROJECT_DIR$/web/packages/invoice/component/modify_invoice.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/packages/invoice/component/sales_invoice.html" afterPath="$PROJECT_DIR$/web/packages/invoice/component/sales_invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/packages/invoice/service/Invoice.dart" afterPath="$PROJECT_DIR$/web/packages/invoice/service/Invoice.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/packages/invoice/service/QueryService.dart" afterPath="$PROJECT_DIR$/web/packages/invoice/service/QueryService.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/addInvoice.html" afterPath="$PROJECT_DIR$/web/view/addInvoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/packages/invoice/component/invoice_component.dart" afterPath="$PROJECT_DIR$/web/view/packages/invoice/component/invoice_component.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/packages/invoice/component/modify_invoice.dart" afterPath="$PROJECT_DIR$/web/view/packages/invoice/component/modify_invoice.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/packages/invoice/component/modify_invoice.html" afterPath="$PROJECT_DIR$/web/view/packages/invoice/component/modify_invoice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/packages/invoice/routing/invoice_routing.dart" afterPath="$PROJECT_DIR$/web/packages/invoice/routing/invoice_routing.dart" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/packages/invoice/component/sales_invoice.html" afterPath="$PROJECT_DIR$/web/view/packages/invoice/component/sales_invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/packages/invoice/service/Invoice.dart" afterPath="$PROJECT_DIR$/web/view/packages/invoice/service/Invoice.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/packages/invoice/service/QueryService.dart" afterPath="$PROJECT_DIR$/web/view/packages/invoice/service/QueryService.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/packages/invoice/routing/invoice_routing.dart" afterPath="$PROJECT_DIR$/web/view/packages/invoice/routing/invoice_routing.dart" />
     </list>
     <ignored path="InventoryManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,34 +40,77 @@
       <file leaf-file-name="modify_invoice.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/component/modify_invoice.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="52" column="47" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="47" />
+            <state relative-caret-position="170">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="e#32#52#0" expanded="true" />
                 <marker date="1466526798721" expanded="true" signature="856:1191" ph="..." />
-                <marker date="1466526798721" expanded="true" signature="877:1191" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invoice.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/service/Invoice.dart">
+      <file leaf-file-name="delete_product.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/component/delete_product.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="312">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
-                <marker date="1466603086499" expanded="true" signature="32:643" ph="{...}" />
+                <element signature="e#35#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modify_invoice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/component/modify_invoice.html">
+      <file leaf-file-name="QueryService.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/service/QueryService.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="261">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="22" />
+              <folding>
+                <element signature="e#24#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#23#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invoice_component.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/component/invoice_component.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sales_invoice.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/component/sales_invoice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="118" selection-start-line="6" selection-start-column="118" selection-end-line="6" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -95,28 +119,18 @@
       <file leaf-file-name="invoice_routing.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routing/invoice_routing.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="244">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="empty_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/empty_page.html">
+      <file leaf-file-name="editInvoice.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/editInvoice.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_product.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/component/add_product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+            <state relative-caret-position="17">
+              <caret line="1" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -125,44 +139,11 @@
       <file leaf-file-name="add_product.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/component/add_product.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="306">
               <caret line="24" column="38" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#56#102#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryService.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/service/QueryService.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <element signature="e#24#44#0" expanded="true" />
-                <marker date="1466522173420" expanded="true" signature="952:1024" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addInvoice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/view/addInvoice.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -173,8 +154,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="Dart File" />
         <option value="HTML File" />
+        <option value="Dart File" />
       </list>
     </option>
   </component>
@@ -200,21 +181,23 @@
         <option value="$PROJECT_DIR$/web/packages/invoice/component/invoice_component.dart" />
         <option value="$PROJECT_DIR$/web/packages/invoice/service/QueryService.dart" />
         <option value="$PROJECT_DIR$/lib/component/invoice_component.dart" />
-        <option value="$PROJECT_DIR$/lib/service/QueryService.dart" />
         <option value="$PROJECT_DIR$/lib/component/modify_invoice.dart" />
-        <option value="$PROJECT_DIR$/lib/component/sales_invoice.html" />
         <option value="$PROJECT_DIR$/lib/component/modify_invoice.html" />
         <option value="$PROJECT_DIR$/lib/component/add_invoice.html" />
         <option value="$PROJECT_DIR$/lib/component/add_invoice.dart" />
-        <option value="$PROJECT_DIR$/web/main.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/service/Invoice.dart" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/lib/component/add_product.dart" />
         <option value="$PROJECT_DIR$/web/view/empty_page.html" />
-        <option value="$PROJECT_DIR$/lib/routing/invoice_routing.dart" />
         <option value="$PROJECT_DIR$/web/view/addInvoice.html" />
         <option value="$PROJECT_DIR$/lib/component/add_product.html" />
+        <option value="$PROJECT_DIR$/lib/routing/invoice_routing.dart" />
+        <option value="$PROJECT_DIR$/web/view/packages/deleteProduct.html" />
+        <option value="$PROJECT_DIR$/web/main.dart" />
+        <option value="$PROJECT_DIR$/lib/service/QueryService.dart" />
+        <option value="$PROJECT_DIR$/lib/component/delete_product.dart" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/lib/component/sales_invoice.html" />
       </list>
     </option>
   </component>
@@ -297,24 +280,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InventoryManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InventoryManagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -383,6 +348,7 @@
       <recent name="D:\dev\angular.dart.tutorial-master\InventoryManagement\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\angular.dart.tutorial-master\InventoryManagement\web\view" />
       <recent name="D:\dev\angular.dart.tutorial-master\InventoryManagement" />
     </key>
   </component>
@@ -809,12 +775,12 @@
       <option name="presentableId" value="Default" />
       <updated>1466145504576</updated>
       <workItem from="1466145515455" duration="39605000" />
-      <workItem from="1466405693352" duration="42565000" />
+      <workItem from="1466405693352" duration="47279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82170000" />
+    <option name="totallyTimeSpent" value="86884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -872,7 +838,6 @@
           <folding>
             <element signature="e#32#52#0" expanded="true" />
             <marker date="1466526798721" expanded="true" signature="856:1191" ph="..." />
-            <marker date="1466526798721" expanded="true" signature="877:1191" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -957,14 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/editInvoice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/packages/invoice/service/QueryService.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -989,24 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/component/sales_invoice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/component/invoice_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1015,69 +954,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#23#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/service/QueryService.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="e#24#44#0" expanded="true" />
-            <marker date="1466522173420" expanded="true" signature="952:1024" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/service/Invoice.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <marker date="1466603086499" expanded="true" signature="32:643" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/component/modify_invoice.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="47" />
-          <folding>
-            <element signature="e#32#52#0" expanded="true" />
-            <marker date="1466526798721" expanded="true" signature="856:1191" ph="..." />
-            <marker date="1466526798721" expanded="true" signature="877:1191" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/component/modify_invoice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1090,10 +970,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routing/invoice_routing.dart">
+    <entry file="file://$PROJECT_DIR$/lib/component/add_product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/component/modify_invoice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/service/Invoice.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1106,9 +1002,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/component/invoice_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routing/invoice_routing.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/editInvoice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/packages/deleteProduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/component/add_product.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="306">
           <caret line="24" column="38" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="e#56#102#0" expanded="true" />
@@ -1116,10 +1044,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/component/add_product.html">
+    <entry file="file://$PROJECT_DIR$/web/view/deleteProduct.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#23#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/service/QueryService.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/component/modify_invoice.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#32#52#0" expanded="true" />
+            <marker date="1466526798721" expanded="true" signature="856:1191" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/component/delete_product.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#35#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="118" selection-start-line="6" selection-start-column="118" selection-end-line="6" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/component/sales_invoice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding />
         </state>
       </provider>

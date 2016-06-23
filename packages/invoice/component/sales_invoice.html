@@ -21,7 +21,6 @@
 
                     <td>{{$index + 1}}</td>
                     <td>
-                        <!--<a class="extra-space" href="#/invoice/{{invoice.itemCode}}/edit">-->
                         <a class="extra-space" href="#/invoice/{{invoice.itemCode}}/edit">
                             {{invoice.itemCode}}
                         </a>
@@ -31,6 +30,11 @@
                     <td>{{invoice.description}}</td>
                     <td>{{invoice.quantity}}</td>
                     <td>{{invoice.unitPrice}}</td>
+                    <td>
+                        <a class="extra-space" href="#/invoice/{{invoice.itemCode}}/delete">
+                            <ng-md-icon icon="delete" size="32"></ng-md-icon> delete
+                        </a>
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -43,4 +47,3 @@
         <!--<a href="#/add">test</a>-->
 
         <!--<button value="Add Product" ng-click="addPage()"> Add Product </button>-->
-

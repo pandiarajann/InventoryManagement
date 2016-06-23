@@ -19,6 +19,9 @@ void invoiceRouteInitializer(Router router, RouteViewFactory views) {
       'edit': ngRoute(
           path: '/edit',
           view: 'view/editInvoice.html'),
+      'delete': ngRoute(
+          path: '/delete',
+          view: 'view/deleteProduct.html'),
       'view_default': ngRoute(
           defaultRoute: true,
           enter: (RouteEnterEvent e) =>
@@ -27,16 +30,5 @@ void invoiceRouteInitializer(Router router, RouteViewFactory views) {
                   replace: true))
     })
   });
-
-  /*
-  add': ngRoute(
-        path: '/add',
-        mount: {
-          'add': ngRoute(
-              path: '/add',
-              view: 'view/addInvoice.html'
-          )
-        }),
-   */
 
 }
