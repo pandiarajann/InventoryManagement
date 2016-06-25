@@ -41,7 +41,24 @@ class QueryService {
     _invoiceCache.putIfAbsent(_invoice.itemCode, () => _invoice);
   }
 
+  Future updateProductByKey(Invoice invoice) {
+    _invoiceCache[invoice.itemCode] = invoice;
+  }
+
+  Invoice getProductByKey(String itemCode) {
+
+    Invoice tmpInvoice = _invoiceCache[itemCode];
+    Invoice invoice = new Invoice(tmpInvoice.itemCode,
+        tmpInvoice.date,tmpInvoice.productName,
+        tmpInvoice.description,tmpInvoice.quantity,
+        tmpInvoice.unitPrice);
+
+    return invoice;
+
+  }
+
   Future deleteProduct(String _itemCode) {
     _invoiceCache.remove(_itemCode);
   }
+
 }

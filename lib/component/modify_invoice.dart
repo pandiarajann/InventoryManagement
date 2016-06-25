@@ -15,7 +15,7 @@ class ModifyInvoiceComponent {
 
   final QueryService queryService;
 
-  Future _loaded;
+  Router router;
 
   @NgOneWay('invoice-map')
   Map<String, Invoice> _modifyInvoiceMap = new Map();
@@ -25,14 +25,14 @@ class ModifyInvoiceComponent {
   Invoice selectedInvoice;
 //  Invoice get selectedInvoice => modifyInvoiceMap == null ? null : modifyInvoiceMap[_invoice_itemCode];
 
-  ModifyInvoiceComponent(RouteProvider routeProvider, this.queryService) {
+  ModifyInvoiceComponent(RouteProvider routeProvider, this.queryService, this.router) {
 
     _invoice_itemCode = routeProvider.parameters['itemCode'];
     print('Calling load method : ' + _invoice_itemCode);
-    _loadData();
+    _loadData(_invoice_itemCode);
   }
 
-  Future _loadData() {
+/*  Future _loadData() {
     print('inside load method');
     queryService.getAllInvoice()
         .then((Map<String, Invoice> allInvoices) {
@@ -43,14 +43,15 @@ class ModifyInvoiceComponent {
     });
 
     selectedInvoice = _modifyInvoiceMap == null ? null : _modifyInvoiceMap[_invoice_itemCode];
-  }
+  }*/
 
+  Future _loadData(String _invoice_itemCode) {
+
+    selectedInvoice = queryService.getProductByKey(_invoice_itemCode);
+  }
   void save() {
 
-    _loadData();
-//    selectedInvoice.quantity = selectedInvoice.quantity + 10;
-//    selectedInvoice.itemCode = selectedInvoice.itemCode+'1';
-    //queryService.addInvoice(selectedInvoice);
-
+    queryService.updateProductByKey(selectedInvoice);
+    router.go("empty", new Map());
   }
 }
